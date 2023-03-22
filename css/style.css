@@ -1,0 +1,83 @@
+body {
+  margin: 2% 10%;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #344563;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.nav-item:hover {
+  color: #6070ff;
+}
+
+.ham-icon {
+  color: #6070ff;
+  font-size: 15px;
+}
+
+#nav-hamburger { 
+  display: none; 
+}
+
+#main {
+  padding-top: 50px;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+}
+
+.main-paragraph {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  #nav-hamburger {
+    display: flex;
+  }
+}
