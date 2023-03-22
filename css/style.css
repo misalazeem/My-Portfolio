@@ -50,9 +50,7 @@ body {
   font-size: 15px;
 }
 
-#nav-hamburger { 
-  display: none; 
-}
+#nav-hamburger { display: none; }
 
 #main {
   padding-top: 50px;
