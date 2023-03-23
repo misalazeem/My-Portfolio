@@ -31,14 +31,13 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 My Portfolio Project <a name="about-project"></a>
 
-> This is the portfolio project, It is going to be an exact copy of the one on figma as per the instruction. This is the first module, the header and the first main section.
+This is the portfolio project, It is going to be an exact copy of the one on figma as per the instruction. This is the first module, the header and the first main section.
 
 **My Portfolio Project** is a...
 
@@ -79,7 +78,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This could be used as a template for someone trying to build their portfolio
+This could be used as a template for someone trying to build their portfolio
 
 ### Prerequisites
 
@@ -191,8 +190,6 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project give it a rating.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -205,19 +202,11 @@ I would like to thank Microverse for providing the resources and the knowledge t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

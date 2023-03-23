@@ -1,10 +1,13 @@
 body {
   max-width: 375px;
   font-family: Poppins, sans-serif;
+  background-image: url("../images/header\ shapes.png");
+  background-repeat: no-repeat;
+  background-position: 0% -80%;
 }
 
 .header {
-  margin: 2% 10%;
+  margin: 2% 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -113,18 +116,22 @@ body {
   line-height: 20px;
 }
 
+#ham-icon {
+  width: 16px;
+  height: 5px;
+  background-color: #6070ff;
+  margin: 6px 0;
+}
+
 .ham-icon {
   color: #6070ff;
   font-size: 15px;
   font-weight: 1000;
 }
 
-#nav-hamburger { display: flex; }
-
 #main {
-  margin-left: 2%;
   margin-right: 2%;
-  padding-top: 30px;
+  padding-top: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -134,6 +141,20 @@ body {
   margin-top: 3%;
   display: flex;
   align-items: center;
+}
+
+.social-media-list {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+  margin-top: 1%;
+  align-items: center;
+}
+
+.social-media-list li {
+  display: inline-block;
+  padding-right: 2.5%;
+  justify-content: center;
 }
 
 .icons {
@@ -153,8 +174,8 @@ body {
 .main-heading {
   padding-left: 6%;
   padding-right: 12%;
-  margin-top: 30%;
-  margin-bottom: 1%;
+  margin-top: 21%;
+  margin-bottom: 0.5%;
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -165,7 +186,7 @@ body {
 .main-paragraph {
   padding-left: 6%;
   padding-right: 8%;
-  margin-bottom: 2%;
+  margin-bottom: 1.5%;
   margin-top: 2%;
   color: #344563;
   font-weight: 400;
