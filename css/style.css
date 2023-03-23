@@ -10,81 +10,81 @@ body {
   justify-content: space-between;
 }
 
-.shape1{
+.shape1 {
   z-index: 10;
   position: absolute;
 }
 
-.shape2{
+.shape2 {
   z-index: 10;
   position: absolute;
   margin-top: 5%;
 }
 
-.shape3{
+.shape3 {
   z-index: 10;
   position: absolute;
   margin-left: 33%;
   margin-top: 12%;
 }
 
-.shape4{
+.shape4 {
   z-index: 10;
   position: absolute;
   margin-left: 32.8%;
   margin-top: 9.5%;
 }
 
-.shape5{
+.shape5 {
   z-index: 10;
   position: absolute;
   margin-left: 54%;
   margin-top: 2%;
 }
 
-.shape6{
+.shape6 {
   z-index: 10;
   position: absolute;
   margin-left: 80%;
   margin-top: 3%;
 }
 
-.shape7{
+.shape7 {
   z-index: 10;
   position: absolute;
   margin-left: 88%;
   margin-top: 12.7%;
 }
 
-.shape8{
+.shape8 {
   z-index: 10;
   position: absolute;
   margin-left: 88%;
   margin-top: 121%;
 }
 
-.shape9{
+.shape9 {
   z-index: 10;
   position: absolute;
   margin-left: 85%;
   margin-top: 124%;
 }
 
-.shape10{
+.shape10 {
   z-index: 10;
   position: absolute;
   margin-left: 16%;
   margin-top: 150%;
 }
 
-.shape11{
+.shape11 {
   z-index: 10;
   position: absolute;
   margin-left: 60%;
   margin-top: 155%;
 }
 
-.shape12{
+.shape12 {
   z-index: 10;
   position: absolute;
   margin-left: 46%;
@@ -100,7 +100,7 @@ body {
   color: #6070ff;
 }
 
-#background{
+#background {
   position: relative;
 }
 
@@ -129,18 +129,18 @@ body {
   flex-direction: column;
 }
 
-#socials{
+#socials {
   padding-left: 6%;
   margin-top: 3%;
   display: flex;
   align-items: center;
 }
 
-.icons{
+.icons {
   padding-right: 8%;
 }
 
-.connect{
+.connect {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
