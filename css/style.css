@@ -403,7 +403,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 0%;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -428,7 +428,7 @@ body {
 .fields1 {
   width: 100%;
   padding: 4%;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-left: -4%;
   margin-bottom: 7%;
@@ -442,7 +442,7 @@ body {
 .fields2 {
   width: 100%;
   padding: 4%;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   text-align: top;
   border-radius: 8px;
   margin-left: -4%;
@@ -456,7 +456,7 @@ body {
 }
 
 .form-button {
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   padding: 4%;
   width: 50%;
@@ -473,7 +473,6 @@ body {
   height: 3px;
   width: 33%;
   margin-top: 2%;
-  margin-left: -4%;
   background-color: #0d151e;
   border-radius: 10px;
   margin-left: 33%;
