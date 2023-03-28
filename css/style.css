@@ -253,7 +253,7 @@ body {
 
 #about-myself {
   background-color: white;
-  margin-bottom: 25%;
+  padding-bottom: 25%;
   height: fit-content;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 75px;
@@ -375,4 +375,107 @@ body {
   margin-top: 7%;
   margin-left: -4%;
   background-color: #dfe1e6;
+}
+
+.footer {
+  background-color: #6070ff;
+  border-top-left-radius: 75px;
+  width: 100%;
+  height: fit-content;
+}
+
+.footer-container {
+  background: url("../images/footer\ shapes.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 100%;
+  height: fit-content;
+  padding-top: 14%;
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 0%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 2%;
+  color: #ebebff;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 10%;
+}
+
+.fields1 {
+  width: 100%;
+  padding: 4%;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin-left: -4%;
+  margin-bottom: 7%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.fields2 {
+  width: 100%;
+  padding: 4%;
+  border: 1px solid #CFD8DC;
+  text-align: top;
+  border-radius: 8px;
+  margin-left: -4%;
+  margin-bottom: 8%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  resize: none;
+}
+
+.form-button {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4%;
+  width: 50%;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border: 1px;
+}
+
+.bottom-divider {
+  height: 3px;
+  width: 33%;
+  margin-top: 2%;
+  margin-left: -4%;
+  background-color: #0d151e;
+  border-radius: 10px;
+  margin-left: 33%;
+  margin-bottom: 2%;
 }
