@@ -592,7 +592,7 @@ body {
     padding-top: 15%;
     padding-right: 0%;
   }
-  
+
   .about-languages {
     float: right;
     width: 50%;
@@ -623,7 +623,7 @@ body {
   .footer-container {
     background: url("../images/footer-background-desktop.png");
     background-repeat: no-repeat;
-    background-size: 100%; 
+    background-size: 100%;
     background-position: 0% 50%;
     height: fit-content;
     width: 100%;
@@ -640,7 +640,7 @@ body {
     width: 33%;
     margin-left: 33%;
   }
-  
+
   .footer-paragraph {
     width: 40%;
     margin-left: 30%;
@@ -685,5 +685,4 @@ body {
   .bottom-divider {
     height: 0%;
   }
-
 }
