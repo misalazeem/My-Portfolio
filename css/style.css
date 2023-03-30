@@ -14,7 +14,6 @@ body {
   position: relative;
 }
 
-
 #home-page {
   padding: 0%;
   margin: 0%;
@@ -67,7 +66,7 @@ body {
 }
 
 #main {
-  background-image: url("../images/header\ shapes.png");  
+  background-image: url("../images/header\ shapes.png");
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100%;
@@ -211,14 +210,14 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin-top: 1%;  
+  margin-top: 1%;
   margin-right: 2%;
   color: #7a869a;
 }
 
 .frame-counter {
   width: 8px;
-  height: 8px;  
+  height: 8px;
   margin-right: 2.5%;
 }
 
@@ -501,7 +500,7 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    min-width: 768px; 
+    min-width: 768px;
     margin: 0;
   }
 
@@ -520,7 +519,7 @@ body {
     float: left;
     margin-left: 5%;
     margin-top: 2.5%;
-    margin-bottom:2.5%;
+    margin-bottom: 2.5%;
     margin-right: 0%;
   }
 
@@ -639,7 +638,7 @@ body {
   .footer-heading {
     margin-top: 10%;
     width: 33%;
-    margin-lefT: 33%;
+    margin-left: 33%;
   }
   
   .footer-paragraph {
@@ -684,7 +683,7 @@ body {
   }
 
   .bottom-divider {
-    height: 0px;
+    height: 0%;
   }
 
 }
