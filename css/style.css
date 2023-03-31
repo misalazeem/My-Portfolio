@@ -117,6 +117,10 @@ body {
   margin-top: 2%;
 }
 
+.connect:hover {
+  text-decoration: underline;
+}
+
 .main-heading {
   padding-left: 6%;
   padding-right: 12%;
