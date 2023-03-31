@@ -16,6 +16,11 @@
         <nav id="nav-hamburger">
             <img src="images/union.png">        
         </nav>
+        <nav id="desktop-nav">
+          <a href="#" class="desktop-nav-link">Portfolio</a>
+          <a href="#" class="desktop-nav-link">About</a>
+          <a href="#" class="desktop-nav-link">Contact</a>
+        </nav>
     </header>
     <section id="main">
         <h1 class="main-heading">I'm Misal.<br> Glad to see you!</h1>
@@ -34,8 +39,9 @@
     </div>
     <div id="works-grid">
       <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot-Desktop1.png"></div>
         <div class="works-contents">
-          <img src="images/Snapshoot.png">
           <h2 class="works-heading">Tonic</h2>
           <div class="works-frame">
             <label class="frame-text1">Canopy</label>
@@ -54,8 +60,10 @@
         </div>
       </div>
       <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot2.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot-Desktop1.png"></div>
         <div class="works-contents">
-          <img src="images/Snapshoot2.png">
+          
           <h2 class="works-heading">Multi-Post <br>Stories</h2>
           <div class="works-frame">
             <label class="frame-text1">Canopy</label>
@@ -74,9 +82,31 @@
         </div>
       </div>
       <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot3.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot-Desktop1.png"></div>
         <div class="works-contents">
-          <img src="images/Snapshoot3.png">
           <h2 class="works-heading">Tonic</h2>
+          <div class="works-frame">
+            <label class="frame-text1">Canopy</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">Back End Dev</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">2015</label>
+          </div>
+          <p class="works-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="works-list">
+            <li><label class="list-buttons">HTML</label></li>
+            <li><label class="list-buttons">CSS</label></li>
+            <li><label class="list-buttons">JAVASCRIPT</label></li>
+          </ul>
+          <button class="works-button">See Project</button>
+        </div>
+      </div>
+      <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot4.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot-Desktop1.png"></div>
+        <div class="works-contents">
+          <h2 class="works-heading">Multi-Post<br> Stories</h2>
           <div class="works-frame">
             <label class="frame-text1">Canopy</label>
             <div class="frame-counter"><img src="images/Counter.png"></div>
@@ -147,11 +177,11 @@
     <footer class="footer">
       <section class="footer-container">
         <h2 class="footer-heading">Contact me</h2>
-        <p class="footer-paragraph">If you have an application you <br>are interested in developing, a<br> feature that you need built or a<br> project that needs coding.<br> I'd love to help with it!</p>
+        <p class="footer-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
         <form id="form" action="https://formspree.io/f/xwkjnggk" method="POST">
           <input class="fields1" type="text" name="user_name" minlength="4" maxlength="30" placeholder="Lorem Ipsum" required/>
           <input class="fields1" type="email" name="user_email" placeholder="loremipsum@gmail.com" required/>
-          <textarea class="fields2" maxlength="500" rows="6" cols="40" name="message" form="form">Write your message here...</textarea>
+          <textarea class="fields2" maxlength="500" rows="5" cols="40" name="message" form="form">Write your message here...</textarea>
           <button class="form-button" type="submit">Get in touch</button>
         </form>
         <div class="bottom-divider"></div>
