@@ -29,6 +29,8 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
 #background {
@@ -184,6 +186,10 @@ body {
   margin-top: 5%;
 }
 
+.img-container:hover {
+  transform: scale(0.8);
+}
+
 .img-container-desktop {
   display: none;
 }
@@ -200,8 +206,8 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin-top: 1%;
-  margin-right: 2%;
+  margin-top: 2%;
+  margin-right: 8%;
   color: #344563;
 }
 
@@ -274,6 +280,7 @@ body {
 
 .works-button:hover {
   text-decoration: underline;
+  background-color: #ebebff;
 }
 
 #about-myself {
@@ -333,6 +340,7 @@ body {
 
 .about-button:hover {
   text-decoration: underline;
+  background-color: #ebebff;
 }
 
 .about-languages-heading {
@@ -488,6 +496,11 @@ body {
   border: 1px;
 }
 
+.form-button:hover {
+  background-color: #ebebff;
+  text-decoration: underline;
+}
+
 .bottom-divider {
   height: 3px;
   width: 33%;
@@ -521,6 +534,10 @@ body {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     margin-right: 0%;
+  }
+
+  .img-container-desktop:hover {
+    transform: scale(0.8);
   }
 
   .desktop-image {
@@ -680,6 +697,10 @@ body {
     margin-bottom: 5%;
     font-style: normal;
     resize: none;
+  }
+
+  .works-button {
+    width: 55%;
   }
 
   .bottom-divider {
