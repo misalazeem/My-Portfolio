@@ -29,6 +29,8 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
 #background {
