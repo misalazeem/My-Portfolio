@@ -386,9 +386,10 @@ body {
 }
 
 .language-text {
-  position: absolute;
-  margin-left: 1.5%;
-  margin-top: 1%;
+  position: relative;
+  float: left;
+  margin-left: 7%;
+  margin-top: 3%;
   color: #253858;
   font-style: normal;
   font-weight: 520;
@@ -625,7 +626,7 @@ body {
 
   .language-text {
     margin-top: 13%;
-    margin-left: -12%;
+    margin-left: 0%;
   }
 
   .languages-container-inner {
@@ -634,7 +635,7 @@ body {
 
   .language-image {
     margin-top: -12%;
-    margin-left: -12%;
+    margin-left: 0%;
   }
 
   .footer-container {
