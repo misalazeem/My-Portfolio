@@ -37,7 +37,7 @@
 
 # 📖 My Portfolio Project <a name="about-project"></a>
 
-This is the portfolio project, It is going to be an exact copy of the one on figma as per the instruction. This is the first module, the header and the first main section.
+This is the portfolio project, It is going to be an exact copy of the one on figma as per the instruction.
 
 **My Portfolio Project** is a...
 
@@ -69,7 +69,7 @@ This is the portfolio project, It is going to be an exact copy of the one on fig
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not Deployed Yet
+<a href="https://misalazeem.github.io/My-Portfolio----Microverse-Project/"> Here is a link to the live demo of my project</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
