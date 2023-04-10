@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#hamburger').addEventListener('click', () => {
     document.querySelector('#mobilemenu').classList.remove('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.add('mobile-menu');
+	document.querySelector('#homepage').style.filter = blur(50);
   });
 
   document.querySelector('.disabled-button').addEventListener('click', () => {
