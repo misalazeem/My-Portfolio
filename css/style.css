@@ -73,7 +73,7 @@ body {
 }
 
 .mobile-menu-list {
-  list-style: none;  
+  list-style: none;
   padding-top: 10%;
 }
 
@@ -81,10 +81,9 @@ body {
   position: fixed;
   right: 0;
   padding-right: 5%;
-  
 }
 
-.mobile-menu-links {  
+.mobile-menu-links {
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
