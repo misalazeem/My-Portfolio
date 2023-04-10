@@ -2,9 +2,6 @@
 
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>My Portfolio Project</b></h3>
 
@@ -51,6 +48,7 @@ This is the portfolio project, It is going to be an exact copy of the one on fig
   <ul>
     <li><a href="#">HTML5</a></li>
     <li><a href="#">CSS3</a></li>
+    <li><a href="#">Javascript</a></li>
   </ul>
 </details>
 
@@ -82,7 +80,10 @@ This could be used as a template for someone trying to build their portfolio
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: 
+- A working Laptop
+- A code Editor
+- A browser
 <!--
 Example command:
 
@@ -91,9 +92,12 @@ Example command:
 ```
  -->
 
+
 ### Setup
 
 Clone this repository to your desired folder:
+
+To clone this repository on your machine run `git clone https://github.com/misalazeem/My-Portfolio----Microverse-Project.git`
 
 <!--
 Example commands:
@@ -107,7 +111,7 @@ Example commands:
 ### Install
 
 Install this project with:
-
+- Run `npm install`
 <!--
 Example command:
 
@@ -120,6 +124,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- Open the project using VSCode live server or Open the index.html on your browser.
 
 <!--
 Example command:
@@ -132,6 +137,9 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+- `npx hint .`
+- `npx eslint .`
+- `npx stylelint "./css/style.css"`
 
 <!--
 Example command:
@@ -143,7 +151,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+- This project is already deployed with github pages.
 
 <!--
 Example:
