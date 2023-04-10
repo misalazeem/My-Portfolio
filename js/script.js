@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('#hamburger').addEventListener('click', () => {        
-    document.querySelector('#mobilemenu').classList.remove('mobile-menu-inactive');
+  document.querySelector('#hamburger').addEventListener('click', () => {
+	document.querySelector('#mobilemenu').classList.remove('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.add('mobile-menu');
   });
 
@@ -22,5 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#button3').addEventListener('click', () => {
     document.querySelector('#mobilemenu').classList.add('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.remove('mobile-menu');
-  });	
+  });
 });
