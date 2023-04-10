@@ -7,6 +7,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
   </head>
 
   <body>
@@ -14,12 +16,20 @@
     <header class="header">
         <a href="#" class="logo">My Logo</a>
         <nav id="nav-hamburger">
-            <img src="images/union.png">        
+            <a href="#" id="hamburger"><img src="images/union.png"></a>
+            <div id="mobilemenu" class="mobile-menu-inactive">
+              <div class="disabled-button"><a href="#"><img src="./images/hamburger disable.png"></a></div>
+                <ul class="mobile-menu-list">
+                  <li><a id="button1" class="mobile-menu-links" href="#main">Portfolio</a></li>
+                  <li><a id="button2" class="mobile-menu-links" href="#about-myself">About</a></li>
+                  <li><a id="button3" class="mobile-menu-links" href="#form">Contact</a></li>
+                </ul>
+            </div>        
         </nav>
         <nav id="desktop-nav">
-          <a href="#" class="desktop-nav-link">Portfolio</a>
-          <a href="#" class="desktop-nav-link">About</a>
-          <a href="#" class="desktop-nav-link">Contact</a>
+          <a href="#main" class="desktop-nav-link">Portfolio</a>
+          <a href="#about-myself" class="desktop-nav-link">About</a>
+          <a href="#form" class="desktop-nav-link">Contact</a>
         </nav>
     </header>
     <section id="main">
