@@ -273,6 +273,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 3%;
 }
 
 .popup-links {
@@ -282,6 +283,18 @@ body {
   letter-spacing: 0.03em;
   color: #396df2;
   text-decoration: none;
+}
+
+.popup-links-disabled {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  opacity: 0.5;
+  text-decoration: none;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .img-container-desktop-popup{
