@@ -1,3 +1,4 @@
+const i= 0;
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#hamburger').addEventListener('click', () => {
     document.querySelector('#mobilemenu').classList.remove('mobile-menu-inactive');
@@ -93,9 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let nextbutton = '#next'+j;
     let previousbutton = '#previous'+j;
     document.querySelector(projectname).addEventListener('click', () => {
+      popupname = '#project-popup'+projectname[8];
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
-      index = popupname[14];
+      index= projectname[8];
     });
     document.querySelector(closebutton).addEventListener('click', () => {
       popupname = '#project-popup'+index;

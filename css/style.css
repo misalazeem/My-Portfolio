@@ -237,7 +237,6 @@ body {
 .project-popup {
   visibility: visible;
   width: 80%;
-  max-height: fit-content;
   top: 0;
   left: 0;
   position: fixed;
@@ -259,7 +258,7 @@ body {
 .popup-heading {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .popup-cancel {
@@ -298,10 +297,6 @@ body {
 }
 
 .img-container-desktop-popup{
-  display: none;
-}
-
-.popup-divider {
   display: none;
 }
 
@@ -683,10 +678,9 @@ body {
     margin-bottom: 2.5%;
     margin-right: 0%;
   }
-  
+
   .project-popup {
     width: 60%;
-    max-height: fit-content;
     top: 0;
     left: 0;
     position: fixed;
@@ -721,7 +715,7 @@ body {
     margin-bottom: 2.5%;
     margin-right: 5%;
   }
-  
+
   .project-button-section {
     justify-content: space-evenly;
   }
@@ -904,7 +898,7 @@ body {
   .frame-text1 {
     margin-top: 0%;
   }
-  
+
   .frame-text2 {
     margin-top: 0%;
   }
@@ -913,5 +907,4 @@ body {
     margin-top: -0.5%;
     margin-right: 2.5%;
   }
-
 }
