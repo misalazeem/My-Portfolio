@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector(previousbutton).addEventListener('click', () => {
       popupname = '#project-popup' + index;
       document.querySelector(popupname).classList.add('project-popup-inactive');
-      document.querySelector(popupname).classList.remove('project-popup');
+      document.querySelector(popupname).classList.remove('project-popup');  
       index--;
       popupname = `#project-popup${index}`;
       document.querySelector(popupname).classList.add('project-popup');
