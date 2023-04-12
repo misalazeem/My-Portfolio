@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     worksgrid1.innerHTML += popupblock;
   }
   let index = 0;
+  let closingindex;
   const defaultnext = `#next${works.length - 1}`;
   document.querySelector(defaultnext).classList.add('popup-links-disabled');
   document.querySelector(defaultnext).classList.remove('popup-links');
@@ -93,37 +94,43 @@ document.addEventListener('DOMContentLoaded', () => {
     const previousbutton = `#previous${j}`;
     document.querySelector(projectname).addEventListener('click', () => {
       popupname = `#project-popup${projectname[8]}`;
+      console.log(j);
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
       const index1 = projectname[8];
       index = index1;
+      return;
     });
     document.querySelector(closebutton).addEventListener('click', () => {
-      popupname = `#project-popup${index}`;
+      prefix = closingindex;
+      popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
     });
     document.querySelector(nextbutton).addEventListener('click', () => {
-      popupname = `#project-popup${index}`;
+      let prefix = nextbutton[5];
+      let prefix1 = Number(prefix) + 1;
+      console.log(prefix1);
+      popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
-      index = Number(index);
-      index += 1;
-      popupname = `#project-popup${index}`;
+      popupname = `#project-popup${prefix1}`;
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
-      closebutton = `closeproject${index}`;
+      closebutton = `#closeproject${prefix1}`;
+      closingindex = prefix1;
     });
     document.querySelector(previousbutton).addEventListener('click', () => {
-      popupname = `#project-popup${index}`;
+      let prefix = previousbutton[9];
+      let prefix1 = Number(prefix) - 1;
+      popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
-      index = Number(index);
-      index -= 1;
-      popupname = `#project-popup${index}`;
+      popupname = `#project-popup${prefix1}`;
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
-      closebutton = `closeproject${index}`;
+      closebutton = `#closeproject${prefix1}`;
+      closingindex = prefix1;
     });
   }
 });
