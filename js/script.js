@@ -80,43 +80,43 @@ document.addEventListener('DOMContentLoaded', () => {
     popupblock = `<div id="project-popup${j}" class="project-popup-inactive"><div id="container-exist" class="project-container"><div class="project-text-section"><div class="popup-heading"><h2 class="works-heading">${works[j].projectname}</h2><a href="#" class="popup-cancel" id="closeproject${j}"><img src="./images/icons/desktop-popup-cancel.png"></a></div><div class="works-frame"><label class="frame-text1">Canopy</label><div class="frame-counter"><img src="images/Counter.png"></div><label class="frame-text2">Back End Dev</label><div class="frame-counter"><img src="images/Counter.png"></div><label class="frame-text2">2015</label></div><div class="img-container"><img src="${works[j].featuredimage}"></div><div class="img-container-desktop-popup"><img class="desktop-image" src="${works[j].featuredimagedesktop}"></div></div><div class="popup-desktop-format"><p class="works-paragraph">${works[j].detaileddescription}</p><div class="popup-desktop-format-2"><ul class="works-list"><li><label class="list-buttons">${works[j].technologies[0]}</label></li><li><label class="list-buttons">${works[j].technologies[1]}</label></li><li><label class="list-buttons">${works[j].technologies[2]}</label></li></ul><div class="popup-divider"></div><div class="project-button-section"><a href="${works[j].linklive}"class="works-button-1">See Live <img src="./images/icons/See-livve-icon.png"></img><a href="${works[j].linksource}"class="works-button-1">See Source <img src="./images/icons/github-button.png"></img></div></div></div><div class="navigation-links"><a class="popup-links" id="previous${j}" href="#">Previous Project</a><a class="popup-links" id="next${j}" href="#">Next Project</a></div></div></div>`;
     worksgrid1.innerHTML += popupblock;
   }
-  const defaultnext = '#next' + (works.length - 1);
+  const defaultnext = `#next${works.length - 1}`;
   document.querySelector(defaultnext).classList.add('popup-links-disabled');
   document.querySelector(defaultnext).classList.remove('popup-links');
   document.querySelector('#previous0').classList.add('popup-links-disabled');
   document.querySelector('#previous0').classList.remove('popup-links');
   let index = 0;
   for (let j = 0; j < works.length; j += 1) {
-    const projectname = '#project' + j;
-    let popupname = '#project-popup' + j;
-    let closebutton = '#closeproject' + j;
-    const nextbutton = '#next' + j;
-    const previousbutton = '#previous' + j;
-    document.querySelector(projectname).addEventListener('click', function () {
-        popupname = '#project-popup' + projectname[8];
-        document.querySelector(popupname).classList.add('project-popup');
-        document.querySelector(popupname).classList.remove('project-popup-inactive');
-        const index1 = projectname[8];
-        index = index1;
-      });
-    document.querySelector(closebutton).addEventListener('click', function () {
-        popupname = '#project-popup' + index;
-        document.querySelector(popupname).classList.add('project-popup-inactive');
-        document.querySelector(popupname).classList.remove('project-popup');
-      });
-    document.querySelector(nextbutton).addEventListener('click', function () {
-        popupname = '#project-popup' + index;
-        document.querySelector(popupname).classList.add('project-popup-inactive');
-        document.querySelector(popupname).classList.remove('project-popup');
-        index++;
-        popupname = '#project-popup' + index;
-        document.querySelector(popupname).classList.add('project-popup');
-        document.querySelector(popupname).classList.remove('project-popup-inactive');
-        if (index == 4) {
-          index = index - 1;
-        };
-        closebutton = `closeproject${index}`;
-      });
+    const projectname = `#project${j}`;
+    let popupname = `#project-popup${j}`;
+    let closebutton = `#closeproject${j}`;
+    const nextbutton = `#next${j}`;
+    const previousbutton = `#previous${j}`;
+    document.querySelector(projectname).addEventListener('click', () => {
+      popupname = `#project-popup${projectname[8]}`;
+      document.querySelector(popupname).classList.add('project-popup');
+      document.querySelector(popupname).classList.remove('project-popup-inactive');
+      const index1 = projectname[8];
+      index = index1;
+    });
+    document.querySelector(closebutton).addEventListener('click', () => {
+      popupname = '#project-popup' + index;
+      document.querySelector(popupname).classList.add('project-popup-inactive');
+      document.querySelector(popupname).classList.remove('project-popup');
+    });
+    document.querySelector(nextbutton).addEventListener('click', () => {
+      popupname = '#project-popup' + index;
+      document.querySelector(popupname).classList.add('project-popup-inactive');
+      document.querySelector(popupname).classList.remove('project-popup');
+      index++;
+      popupname = '#project-popup' + index;
+      document.querySelector(popupname).classList.add('project-popup');
+      document.querySelector(popupname).classList.remove('project-popup-inactive');
+      if (index == 4) {
+        index = index - 1;
+      };
+      closebutton = `closeproject${index}`;
+    });
     document.querySelector(previousbutton).addEventListener('click', () => {
       popupname = '#project-popup' + index;
       document.querySelector(popupname).classList.add('project-popup-inactive');
