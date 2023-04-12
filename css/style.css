@@ -727,7 +727,7 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(193, 199, 208, 0.8); 
+    background: rgba(193, 199, 208, 0.8);
     z-index: 9;
   }
 
