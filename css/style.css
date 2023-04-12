@@ -342,13 +342,13 @@ body {
   background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 6px;
-  padding: 16px;
+  padding: 9px;
   gap: 12px;
   align-items: center;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 22px;
   letter-spacing: 0.03em;
   color: #396df2;
 }
@@ -396,7 +396,7 @@ body {
   padding-left: 3px;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 22px;
   color: #344563;
 }
 
@@ -764,7 +764,8 @@ body {
   }
 
   .img-container-desktop-popup {
-    width: 30%;
+    width: 100%;
+    height: 40%;
     display: flex;
     margin: 2% auto;
   }
@@ -884,6 +885,15 @@ body {
   .language-image {
     margin-top: -12%;
     margin-left: 0%;
+  }
+
+  .works-paragraph {
+    font-style: normal;
+    padding-left: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .footer-container {
