@@ -733,7 +733,6 @@ body {
 
   .project-container {
     width: 75%;
-    height: 80vh;
     border: 1px solid #dfe1e6;
     border-radius: 15px;
     background: #fff;
@@ -885,15 +884,6 @@ body {
   .language-image {
     margin-top: -12%;
     margin-left: 0%;
-  }
-
-  .works-paragraph {
-    font-style: normal;
-    padding-left: 3px;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
   }
 
   .footer-container {
