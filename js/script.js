@@ -97,15 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector(popupname).classList.remove('project-popup-inactive');
     });
     document.querySelector(closebutton).addEventListener('click', () => {
-      prefix = closingindex;
+      const prefix = closingindex;
       popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
     });
     document.querySelector(nextbutton).addEventListener('click', () => {
-      let prefix = nextbutton[5];
-      let prefix1 = Number(prefix) + 1;
-      console.log(prefix1);
+      const prefix = nextbutton[5];
+      const prefix1 = Number(prefix) + 1;
       popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
@@ -116,8 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
       closingindex = prefix1;
     });
     document.querySelector(previousbutton).addEventListener('click', () => {
-      let prefix = previousbutton[9];
-      let prefix1 = Number(prefix) - 1;
+      const prefix = previousbutton[9];
+      const prefix1 = Number(prefix) - 1;
       popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
