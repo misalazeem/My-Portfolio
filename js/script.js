@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector(popupname).classList.remove('project-popup-inactive');
     });
     document.querySelector(closebutton).addEventListener('click', () => {
-      const prefix = closingindex;
+      const prefix = nextbutton[5];
       popupname = `#project-popup${prefix}`;
       document.querySelector(popupname).classList.add('project-popup-inactive');
       document.querySelector(popupname).classList.remove('project-popup');
@@ -111,8 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
       popupname = `#project-popup${prefix1}`;
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
-      closebutton = `#closeproject${prefix1}`;
-      closingindex = prefix1;
     });
     document.querySelector(previousbutton).addEventListener('click', () => {
       const prefix = previousbutton[9];
@@ -124,7 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector(popupname).classList.add('project-popup');
       document.querySelector(popupname).classList.remove('project-popup-inactive');
       closebutton = `#closeproject${prefix1}`;
-      closingindex = prefix1;
     });
   }
 });
