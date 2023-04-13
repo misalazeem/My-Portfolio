@@ -135,12 +135,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if ((email === validateemail)) {
       document.querySelector('#failed').classList.add('validate-email-disabled');
       document.querySelector('#failed').classList.remove('validate-email');
-      form.onSubmit();
-    }
+      form.onSubmit(); }
     else {
       document.querySelector('#failed').classList.add('validate-email');
       document.querySelector('#failed').classList.remove('validate-email-disabled');
-      e.preventDefault();
-    }
+      e.preventDefault(); }
   });
 });
