@@ -129,9 +129,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const form = document.querySelector('#form');
-  const email = document.querySelector('#emailfield').value;
-  const validateemail = email.toLowerCase();
   form.addEventListener('submit', (e) => {
+    const email = document.querySelector('#emailfield').value;
+    const validateemail = email.toLowerCase();
     if ((email === validateemail)) {
       document.querySelector('#failed').classList.add('validate-email-disabled');
       document.querySelector('#failed').classList.remove('validate-email');
