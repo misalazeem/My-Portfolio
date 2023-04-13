@@ -132,13 +132,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const email = document.querySelector('#emailfield').value;
   const validateemail = email.toLowerCase();
   form.addEventListener('submit', (e) => {
-    if ((email === validateemail)) {
+    if ((email === validateemail))
+    {
       document.querySelector('#failed').classList.add('validate-email-disabled');
       document.querySelector('#failed').classList.remove('validate-email');
-      form.onSubmit(); }
-    else {
+      form.onSubmit();
+    }
+    else
+    {
       document.querySelector('#failed').classList.add('validate-email');
       document.querySelector('#failed').classList.remove('validate-email-disabled');
-      e.preventDefault(); }
+      e.preventDefault();
+    }
   });
 });
