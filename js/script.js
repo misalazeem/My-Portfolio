@@ -126,5 +126,5 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector(popupname).classList.remove('project-popup-inactive');
       closebutton = `#closeproject${prefix1}`;
     });
-  }
+  }    
 });
