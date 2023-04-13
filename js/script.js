@@ -126,15 +126,13 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector(popupname).classList.remove('project-popup-inactive');
       closebutton = `#closeproject${prefix1}`;
     });
-  }  
-  
+  }
+
   const form = document.querySelector('#form');
   const email = document.querySelector('#emailfield').value;
   const validateemail = email.toLowerCase();
   form.addEventListener('submit', (e) => {
-    const email = document.querySelector('#emailfield').value;
-    const validateemail = email.toLowerCase();
-    if ((email === validateemail)){
+    if ((email === validateemail)) {
       document.querySelector('#failed').classList.add('validate-email-disabled');
       document.querySelector('#failed').classList.remove('validate-email');
       form.onSubmit();
