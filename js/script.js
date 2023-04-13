@@ -127,4 +127,19 @@ document.addEventListener('DOMContentLoaded', () => {
       closebutton = `#closeproject${prefix1}`;
     });
   }
+
+  const form = document.querySelector('#form');
+  form.addEventListener('submit', (e) => {
+    const email = document.querySelector('#emailfield').value;
+    const validateemail = email.toLowerCase();
+    if ((email === validateemail)) {
+      document.querySelector('#failed').classList.add('validate-email-disabled');
+      document.querySelector('#failed').classList.remove('validate-email');
+      form.onSubmit();
+    } else {
+      document.querySelector('#failed').classList.add('validate-email');
+      document.querySelector('#failed').classList.remove('validate-email-disabled');
+      e.preventDefault();
+    }
+  });
 });
