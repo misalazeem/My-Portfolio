@@ -764,7 +764,8 @@ body {
   }
 
   .img-container-desktop-popup {
-    width: 30%;
+    width: 100%;
+    height: 40%;
     display: flex;
     margin: 2% auto;
   }
