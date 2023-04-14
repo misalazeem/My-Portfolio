@@ -34,7 +34,29 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('textfield').value = formtoken.formtext;
     }
   }
-
+  
+  window.addEventListener('beforeunload', (event) => {
+    const formdata = {
+      formname: '',
+      formemail: '',
+      formtext: '',
+    };
+  
+    if((!document.querySelector("#name").value) || document.querySelector("#name").value != ''){
+      formdata.formname = document.querySelector("#name").value;
+    }
+    if((!document.querySelector("#emailfield").value) || document.querySelector("#emailfield").value != ''){
+      formdata.formemail = document.querySelector("#emailfield").value;
+    }
+    if((!document.querySelector("#textfield").value) || document.querySelector("#textfield").value != ''){
+      formdata.formtext = document.querySelector("#textfield").value;
+    }
+    
+  
+    JSON.stringify(formdata);
+    localStorage.setItem("formdata", JSON.stringify(formdata));  
+  });
+  
   const works = [
     {
       projectname: 'Tonic',
