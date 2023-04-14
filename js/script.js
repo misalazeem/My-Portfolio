@@ -24,39 +24,38 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#mobilemenu').classList.add('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.remove('mobile-menu');
   });
-    
-  window.onload = function () {
-    if(localStorage){
-      const localStorageItem = localStorage.getItem("formdata");
+
+  window.onload = () => {
+    if (localStorage) {
+      const localStorageItem = localStorage.getItem('formdata');
       const formtoken = JSON.parse(localStorageItem);
       document.getElementById('name').value = formtoken.formname;
       document.getElementById('emailfield').value = formtoken.formemail;
       document.getElementById('textfield').value = formtoken.formtext;
     }
-  }
-  
-  window.addEventListener('beforeunload', (event) => {
+  };
+
+  window.addEventListener('beforeunload', () => {
     const formdata = {
       formname: '',
       formemail: '',
       formtext: '',
     };
-  
-    if((!document.querySelector("#name").value) || document.querySelector("#name").value != ''){
-      formdata.formname = document.querySelector("#name").value;
+
+    if ((!document.querySelector('#name').value) || document.querySelector('#name').value !== '') {
+      formdata.formname = document.querySelector('#name').value;
     }
-    if((!document.querySelector("#emailfield").value) || document.querySelector("#emailfield").value != ''){
-      formdata.formemail = document.querySelector("#emailfield").value;
+    if ((!document.querySelector('#emailfield').value) || document.querySelector('#emailfield').value !== '') {
+      formdata.formemail = document.querySelector('#emailfield').value;
     }
-    if((!document.querySelector("#textfield").value) || document.querySelector("#textfield").value != ''){
-      formdata.formtext = document.querySelector("#textfield").value;
+    if ((!document.querySelector('#textfield').value) || document.querySelector('#textfield').value !== '') {
+      formdata.formtext = document.querySelector('#textfield').value;
     }
-    
   
     JSON.stringify(formdata);
-    localStorage.setItem("formdata", JSON.stringify(formdata));  
+    localStorage.setItem('formdata', JSON.stringify(formdata));
   });
-  
+
   const works = [
     {
       projectname: 'Tonic',
