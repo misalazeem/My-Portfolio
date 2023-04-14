@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if ((!document.querySelector('#textfield').value) || document.querySelector('#textfield').value !== '') {
       formdata.formtext = document.querySelector('#textfield').value;
     }
-  
+
     JSON.stringify(formdata);
     localStorage.setItem('formdata', JSON.stringify(formdata));
   });
