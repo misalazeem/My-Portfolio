@@ -24,6 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#mobilemenu').classList.add('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.remove('mobile-menu');
   });
+    
+  window.onload = function () {
+    if(localStorage){
+      const localStorageItem = localStorage.getItem("formdata");
+      const formtoken = JSON.parse(localStorageItem);
+      document.getElementById('name').value = formtoken.formname;
+      document.getElementById('emailfield').value = formtoken.formemail;
+      document.getElementById('textfield').value = formtoken.formtext;
+    }
+  }
 
   const works = [
     {
