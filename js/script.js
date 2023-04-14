@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#mobilemenu').classList.add('mobile-menu');
   });
 
-  document.querySelector('.disabled-buttons').addEventListener('click', () => {
+  document.querySelector('.disabled-button').addEventListener('click', () => {
     document.querySelector('#mobilemenu').classList.add('mobile-menu-inactive');
     document.querySelector('#mobilemenu').classList.remove('mobile-menu');
   });

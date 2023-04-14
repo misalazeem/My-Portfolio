@@ -85,7 +85,7 @@ body {
 .disabled-button {
   position: fixed;
   right: 0;
-  padding-right: 5%;
+  padding-right: 15%;
 }
 
 .mobile-menu-links {
