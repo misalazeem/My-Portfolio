@@ -67,7 +67,7 @@ This is the portfolio project, It is going to be an exact copy of the one on fig
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://misalazeem.github.io/My-Portfolio----Microverse-Project/"> Here is a link to the live demo of my project</a><br>
+<a href="https://misalazeem.github.io/My-Portfolio"> Here is a link to the live demo of my project</a><br>
 <a href="https://www.loom.com/share/cd99800772484aa7812f346a882ba676"> Here is a Loom Walkthrough video for my project </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
