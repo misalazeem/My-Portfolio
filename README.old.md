@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
 
   <h3><b>My Portfolio Project</b></h3>
@@ -41,6 +42,7 @@ This is the portfolio project, It is going to be an exact copy of the one on fig
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -50,9 +52,11 @@ This is the portfolio project, It is going to be an exact copy of the one on fig
   </ul>
 </details>
 
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
 
 - **Responsive design**
 - **Mastering HTML & CSS**
@@ -76,8 +80,7 @@ This could be used as a template for someone trying to build their portfolio
 
 ### Prerequisites
 
-In order to run this project you need:
-
+In order to run this project you need: 
 - A working Laptop
 - A code Editor
 - A browser
@@ -87,8 +90,8 @@ Example command:
 ```sh
  gem install rails
 ```
+ -->
 
--->
 
 ### Setup
 
@@ -108,7 +111,6 @@ Example commands:
 ### Install
 
 Install this project with:
-
 - Run `npm install`
 <!--
 Example command:
@@ -117,13 +119,11 @@ Example command:
   cd my-project
   gem install
 ```
-
 --->
 
 ### Usage
 
 To run the project, execute the following command:
-
 - Open the project using VSCode live server or Open the index.html on your browser.
 
 <!--
@@ -137,7 +137,6 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
 - `npx hint .`
 - `npx eslint .`
 - `npx stylelint "./css/style.css"`
@@ -168,6 +167,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **Misal Azeem**
 
 - GitHub: [@misalazeem](https://github.com/misalazeem)
@@ -190,6 +190,7 @@ Example:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,5 +215,6 @@ I would like to thank Microverse for providing the resources and the knowledge t
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
