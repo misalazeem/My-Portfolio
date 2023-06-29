@@ -1,0 +1,120 @@
+.portfolio {
+  padding: 0 30px;
+  background-color: #fff;
+  border-bottom-left-radius: 75px;
+}
+
+.hero {
+  background-image: url(../images/head\ shapes-desktop.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 15%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.hero-content h1 {
+  color: #000;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 0.37px;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.lets-connect {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lets-connect span {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.lets-connect ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.lets-connect ul li {
+  margin-right: 10px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #344563;
+}
+
+.fa-icon {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1196px) {
+  .hero {
+    padding: 13%;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .lets-connect span {
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .fa-icon {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(../images/header\ shapes.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20% 5% 18% 18%;
+  }
+
+  .hero-content h1 {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.7rem;
+    margin: 10px 0;
+  }
+
+  .lets-connect span {
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .fa-icon {
+    font-size: 16px;
+  }
+}

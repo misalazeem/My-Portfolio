@@ -1,0 +1,137 @@
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 2s ease-in-out;
+  transition: background-color 2s ease-in-out, opacity 2s ease-in-out;
+  z-index: 9998;
+}
+
+.modal-contanier {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.modal-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.modal-titles h2 {
+  margin: 0;
+}
+
+.top-section button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #000;
+}
+
+.top-section button:hover {
+  background-color: #d3d3d3;
+  color: #333;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.details-left {
+  width: 75%;
+  padding: 0 25px 0 0;
+}
+
+.details-right {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-left p {
+  color: #344563;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-buttons a {
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 8px 25px;
+  background-color: #fff;
+  border: 1px solid#6070ff;
+  border-radius: 8px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #396df2;
+}
+
+@media screen and (max-width: 768px) {
+  .project-details {
+    flex-direction: column;
+  }
+
+  .details-right {
+    width: 100%;
+  }
+
+  .details-left {
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+}
