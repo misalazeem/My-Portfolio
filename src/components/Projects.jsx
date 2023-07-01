@@ -8,6 +8,8 @@ import BookstoreImage from '../images/bookstore.jpg';
 import MathMagiciansImage from '../images/math-magicians.jpg';
 import TodolistImage from '../images/Todolist.jpg';
 import VibetuneImage from '../images/vibetune.jpg';
+import AACPImage from '../images/AACP.jpg';
+import HNIImage from '../images/H&I.jpg';
 
 function Projects() {
   const Projects = [
@@ -87,6 +89,28 @@ function Projects() {
       type: 'Front End Dev',
       github: 'https://github.com/misalazeem/Capstone-Project',
       livedemo: 'https://misalazeem.github.io/Capstone-Project/',
+    },
+    {
+      id: 8,
+      name: 'AACP',
+      stack: ['WordPress'],
+      summary: 'AACP is an E-Book and paid newsletter website. The website features an ecommerce store with working payment methods and memberships for its users.',
+      image: AACPImage,
+      year: '2023',
+      type: 'Front End Dev',
+      github: 'https://github.com/misalazeem/',
+      livedemo: 'https://aacp.com.pk/',
+    },
+    {
+      id: 9,
+      name: 'Huzaima & Ikram',
+      stack: ['WordPress'],
+      summary: 'Huzaima & Ikram is a very popular Income-tax law firm based in Lahore, Pakistan. I have developed this website for them on Wordpress. It is mostly a portfolio but also features memberships for tax articles with a fully functioning e-commerce store.',
+      image: HNIImage,
+      year: '2023',
+      type: 'Front End Dev',
+      github: 'https://github.com/misalazeem/',
+      livedemo: 'https://huzaimaikram.com/',
     },
   ];
 
