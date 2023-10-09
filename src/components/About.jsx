@@ -49,8 +49,8 @@ function About() {
         </div>
       </div>
       <div className="right-section">
-        <Dropdown title="Languages" options={['HTML5', 'CSS3', 'Javascript']} />
-        <Dropdown title="Frameworks" options={['React', 'Angular', 'Node', 'Redux']} />
+        <Dropdown title="Languages" options={['HTML5', 'CSS3', 'Javascript', 'Ruby on Rails']} />
+        <Dropdown title="Frameworks" options={['React', 'Redux']} />
         <Dropdown title="Tools" options={['Github', 'Heroku', 'VScode']} />
       </div>
     </section>
