@@ -7,7 +7,7 @@ import '../styles/Portfolio.css';
 
 function Portfolio() {
   const [text, setText] = useState('');
-  const message = "I'm Misal. Glad to see you! I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.";
+  const message = "I'm a software developer with a passion for crafting exceptional web experiences. Specializing in React and Ruby on Rails, I bring ideas to life with design and code. Take a peek at my portfolio to see diverse projects that showcase my skills and adaptability. If you have a project in mind or want to enhance your online presence, let's chat. Contact me, and let's create something extraordinary together.";
 
   useEffect(() => {
     let charIndex = 0;
