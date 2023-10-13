@@ -5,7 +5,7 @@ body {
   font-family: Inter, sans-serif;
   background-color: #dfe1e6;
   opacity: 0;
-  transition: opacity 1s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 body.loaded {
