@@ -2,6 +2,18 @@
   background-color: #6070ff;
   padding: 10% 0;
   border-top-left-radius: 75px;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.contact-form-entering {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.contact-form-entered {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .contact-background {

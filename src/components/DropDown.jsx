@@ -17,7 +17,7 @@ function Dropdown({ title, options }) {
   };
 
   return (
-    <div className="dropdown">
+    <div className={`dropdown ${isOpen ? 'active' : ''}`}>
       <div
         className="dropdown-toggle"
         onClick={toggleDropdown}
@@ -29,13 +29,11 @@ function Dropdown({ title, options }) {
         {isOpen ? <FaChevronUp /> : <FaChevronDown />}
       </div>
       <div className="dropdown-menu">
-        {isOpen && (
-          <ul>
-            {options.map((option) => (
-              <li key={option}>{option}</li>
-            ))}
-          </ul>
-        )}
+        <ul>
+          {options.map((option) => (
+            <li key={option}>{option}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );

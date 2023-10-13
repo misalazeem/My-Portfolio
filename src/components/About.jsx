@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -7,8 +7,14 @@ import {
 import Dropdown from './DropDown';
 
 function About() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
   return (
-    <section id="about-me" className="about-me">
+    <section id="about-me" className={`about-me ${isVisible ? 'active' : ''}`}>
       <div className="left-section">
         <h2>About Myself</h2>
         <p>

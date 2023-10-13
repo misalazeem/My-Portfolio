@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Contact.css';
 
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [animate, setAnimate] = useState(false);
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -17,6 +18,10 @@ function Contact() {
   const handleMessageChange = (e) => {
     setMessage(e.target.value);
   };
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,7 +40,7 @@ function Contact() {
   return (
     <section id="Contact-Me" className="contact-me">
       <div className="contact-background">
-        <form className="contact-form" action="https://formspree.io/f/mvojpbbn" method="POST" onSubmit={handleSubmit}>
+        <form className={`contact-form ${animate ? 'contact-form-entered' : 'contact-form-entering'}`} action="https://formspree.io/f/mvojpbbn" method="POST" onSubmit={handleSubmit}>
           <h2>Contact me</h2>
           <p>
             If you have an application you are interested in developing,

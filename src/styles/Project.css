@@ -6,6 +6,12 @@
   border: 1px solid #dfe1e6;
   background-color: #fff;
   margin-bottom: 75px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .left-section {
@@ -94,6 +100,12 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.right-section button:hover {
+  background-color: #344563;
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1400px) {

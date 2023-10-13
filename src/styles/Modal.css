@@ -39,6 +39,11 @@
   display: flex;
   align-items: center;
   margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
 }
 
 .image-container img {
@@ -68,6 +73,7 @@
   border: none;
   font-size: 22px;
   color: #000;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .top-section button:hover {
@@ -104,6 +110,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .project-buttons a {
@@ -116,6 +123,11 @@
   line-height: 20px;
   font-size: 15px;
   color: #396df2;
+}
+
+.project-buttons a:hover {
+  background-color: #d3d3d3;
+  color: #333;
 }
 
 @media screen and (max-width: 768px) {

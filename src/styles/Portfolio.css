@@ -60,6 +60,11 @@
 .icon-link {
   text-decoration: none;
   color: #344563;
+  transition: color 0.3s;
+}
+
+.icon-link:hover {
+  color: #6070ff;
 }
 
 .fa-icon {
